@@ -8,7 +8,14 @@ body {
     width: 100%;
      color: rgba(18, 48, 91, 1);
      font-family: Arial, Helvetica, sans-serif;
-     padding: 40px;
+}
+
+header {
+    width: 100%;
+        background-image: url(./img/shutterstock_524513014\ 1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .header__section {
@@ -33,26 +40,17 @@ body {
 .text {
     width: 100%;
     padding: 0%;
-    margin-bottom: 10px;
+    margin: 50px 50px;
+    padding: 200px 0;
     font-size: 25px;
 }
 
-.text img {
-    position: relative;
-    height: 50%;
-    width: 100%;
-}
 
-.text-2 {
-    position: absolute;
-    top: 40%;
-    left: 5%;
-}
 
 .floating-container {
     display: flex;
     position: absolute;
-    bottom: -44%;
+    bottom: -20%;
     right: 2%;
     gap: 5px;
     background-color: white;
@@ -71,12 +69,10 @@ body {
     justify-content: space-between;
     gap: 40px;
     padding: 100px 150px;
-    /* background-color: #f9f9f9; */
 }
 
 .testimonial-left {
-    width: 50%;
-    flex: 1;
+    width: 40%;
 }
 
 .testimonial-left .subtitle {
@@ -104,9 +100,8 @@ body {
 }
 
 .testimonial-right {
-    width: 50%;
-    flex: 1;
-    padding: 20px 60px;
+    width: 35%;
+    padding: 30px 40px;
      box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -118,6 +113,7 @@ body {
 }
 
 .author {
+    padding-top: 50px;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -145,11 +141,10 @@ body {
 }
 
 .text-quote {
-    text-align: center;
-    justify-content: center;
     font-size: 13px;
     color: rgba(77, 83, 60, 1);
     background-color: rgba(251, 249, 242, 1);
+    padding: 20px 30px;
 }
 
 .text-quote p {
@@ -211,9 +206,10 @@ button {
     color: white;
     border: none;
     padding: 12px 25px;
+    margin: 15px 0;
     border-radius: 6px;
     font-size: 16px;
-    cursor: pointer;
+     cursor: pointer;
 }
 
 .mission-container {
@@ -289,7 +285,7 @@ button {
 
 .review-container {
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .review-container h1 {
@@ -305,6 +301,7 @@ button {
    display: flex;
      gap: 40px;
      font-size: 16px;
+     margin: 0 100px;
     margin-bottom: 40px;
 }
 
@@ -327,7 +324,12 @@ button {
 
 footer {
     width: 100%;
-        background-color: navy;
+    background-image: url(./img/06260e0672e73caab766beb173d79d928cbacc71.png);
+}
+
+.footer-color {
+    background-color: rgba(4, 60, 80, 1);
+    opacity: 0.9;
 }
 
 .footer-img {
@@ -375,7 +377,6 @@ border-color: rgba(93, 101, 68, 1);
 }
 
 .footer-bottem {
-    /* text-align: center; */
     font-size: 14px;
     margin-top: 40px;
     color: rgba(171, 171, 171, 1);
