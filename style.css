@@ -325,6 +325,9 @@ button {
 footer {
     width: 100%;
     background-image: url(./img/06260e0672e73caab766beb173d79d928cbacc71.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
 }
 
 .footer-color {
